@@ -211,6 +211,29 @@ function updateWhatsAppLinks(language) {
   });
 }
 
+function getWhatsAppPlacement(link) {
+  if (link.classList.contains("floating-whatsapp")) {
+    return "floating_button";
+  }
+
+  const pageArea = link.closest("section[id], header[id], footer");
+  return pageArea?.id || pageArea?.tagName.toLowerCase() || "page";
+}
+
+whatsappLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    if (typeof window.gtag !== "function") {
+      return;
+    }
+
+    window.gtag("event", "generate_lead", {
+      method: "WhatsApp",
+      language: currentLanguage,
+      contact_location: getWhatsAppPlacement(link),
+    });
+  });
+});
+
 function setLanguage(language) {
   currentLanguage = language;
   const dictionary = translations[language];
