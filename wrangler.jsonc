@@ -4,5 +4,11 @@
   "compatibility_date": "2026-07-29",
   "assets": {
     "directory": "./dist"
-  }
+  },
+  "routes": [
+    {
+      "pattern": "dominiosyendulzamientos.com",
+      "custom_domain": true
+    }
+  ]
 }
