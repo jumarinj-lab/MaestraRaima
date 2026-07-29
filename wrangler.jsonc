@@ -9,6 +9,10 @@
     {
       "pattern": "dominiosyendulzamientos.com",
       "custom_domain": true
+    },
+    {
+      "pattern": "www.dominiosyendulzamientos.com",
+      "custom_domain": true
     }
   ]
 }
