@@ -18,8 +18,7 @@ const staticFiles = [
   "script.js",
   "robots.txt",
   "sitemap.xml",
-  "_headers",
-  ".assetsignore"
+  "_headers"
 ];
 
 for (const fileName of staticFiles) {
@@ -32,4 +31,4 @@ await cp(
   { recursive: true }
 );
 
-console.log("Sitio preparado en dist/ para Cloudflare Pages.");
+console.log("Sitio preparado en dist/ para Cloudflare Workers.");

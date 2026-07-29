@@ -18,9 +18,10 @@ español a inglés según el idioma activo en la página.
 
 Ejecuta `npm run build`. Los archivos listos para publicar se generan en `dist/`.
 
-Configuración recomendada para Cloudflare Pages:
+Configuración recomendada para Cloudflare Workers Builds:
 
 - Rama de producción: `main`
 - Comando de compilación: `npm run build`
-- Directorio de salida: `dist`
+- Comando de despliegue: `npx wrangler deploy`
+- Directorio de recursos: `dist` (definido en `wrangler.jsonc`)
 - Dominio: `dominiosyendulzamientos.com`
