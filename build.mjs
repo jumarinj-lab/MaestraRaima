@@ -18,7 +18,8 @@ const staticFiles = [
   "script.js",
   "robots.txt",
   "sitemap.xml",
-  "_headers"
+  "_headers",
+  ".assetsignore"
 ];
 
 for (const fileName of staticFiles) {
