@@ -3153,3 +3153,41 @@ svg {
     margin: 0 auto;
   }
 }
+
+
+.footer-seo-nav {
+  width: min(1180px, calc(100% - 48px));
+  margin: 28px auto 0;
+  padding-top: 24px;
+  border-top: 1px solid rgba(244, 201, 93, 0.2);
+}
+.footer-seo-nav h2 {
+  margin: 0 0 12px;
+  color: #ffe59a;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.footer-seo-links { display: flex; flex-wrap: wrap; gap: 12px 24px; }
+.footer-seo-links a { color: #d9c9aa; font-size: 0.76rem; text-decoration: none; }
+.footer-seo-links a:hover { color: #ffe59a; }
+@media (max-width: 620px) {
+  .footer-seo-nav { width: min(100% - 32px, 1180px); }
+  .footer-seo-links { flex-direction: column; gap: 10px; }
+}
+
+
+.services-detail-link {
+  justify-self: start;
+  align-self: end;
+  color: #f5d879;
+  border-bottom: 1px solid rgba(245, 216, 121, 0.45);
+  padding-bottom: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.services-detail-link:hover { color: #fff1b8; border-color: #fff1b8; }
+@media (max-width: 900px) { .services-detail-link { grid-column: 1 / -1; } }

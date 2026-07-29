@@ -31,6 +31,7 @@ const translations = {
     servicesTitle: "Una guía para cada momento de tu camino.",
     servicesIntro:
       "Cada proceso comienza escuchando tu historia. Juntas identificamos el acompañamiento espiritual más adecuado para ti.",
+    servicesDetailLink: "Ver información detallada de los servicios",
     serviceReadingTitle: "Lecturas espirituales",
     serviceReadingText:
       "Analizo las energías presentes en tu vida para comprender situaciones del amor, la familia, el trabajo y tus decisiones personales.",
@@ -84,6 +85,10 @@ const translations = {
     closingButton: "Hablar con la Maestra Raima",
     closingNote: "Respuesta directa por WhatsApp · Consulta privada",
     footerCopy: "Orientación espiritual con respeto, discreción y atención personal.",
+    footerExploreServices: "Explora más",
+    footerServicesPage: "Todos los servicios",
+    footerEnglishPage: "English version",
+    footerPrivacyPage: "Aviso de privacidad",
     footerWhatsapp: "Abrir WhatsApp",
     footerDisclaimer:
       "Los servicios espirituales no sustituyen asesoría médica, legal o psicológica.",
@@ -122,6 +127,7 @@ const translations = {
     servicesTitle: "Guidance for every moment of your path.",
     servicesIntro:
       "Every process begins by listening to your story. Together, we identify the spiritual support that best suits you.",
+    servicesDetailLink: "View detailed service information",
     serviceReadingTitle: "Spiritual readings",
     serviceReadingText:
       "I read the energies present in your life to understand situations involving love, family, work and personal decisions.",
@@ -175,6 +181,10 @@ const translations = {
     closingButton: "Talk to Maestra Raima",
     closingNote: "Direct reply on WhatsApp · Private consultation",
     footerCopy: "Spiritual guidance with respect, discretion and personal attention.",
+    footerExploreServices: "Explore more",
+    footerServicesPage: "All services",
+    footerEnglishPage: "English SEO page",
+    footerPrivacyPage: "Privacy notice",
     footerWhatsapp: "Open WhatsApp",
     footerDisclaimer:
       "Spiritual services are not a substitute for medical, legal or psychological advice.",

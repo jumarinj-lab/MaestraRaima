@@ -31,4 +31,17 @@ await cp(
   { recursive: true }
 );
 
+for (const fileName of ["seo-pages.css", "seo-pages.js"]) {
+  await copyFile(path.join(projectRoot, fileName), path.join(outputDirectory, fileName));
+}
+
+const seoDirectories = ["servicios", "en", "privacidad"];
+for (const directoryName of seoDirectories) {
+  await cp(
+    path.join(projectRoot, directoryName),
+    path.join(outputDirectory, directoryName),
+    { recursive: true }
+  );
+}
+
 console.log("Sitio preparado en dist/ para Cloudflare Workers.");
