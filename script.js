@@ -241,6 +241,11 @@ whatsappLinks.forEach((link) => {
       language: currentLanguage,
       contact_location: getWhatsAppPlacement(link),
     });
+    window.gtag("event", "conversion", {
+      send_to: "AW-18360873724/8AOwCImCqNkcEPzlkrNE",
+      value: 1.0,
+      currency: "COP",
+    });
   });
 });
 

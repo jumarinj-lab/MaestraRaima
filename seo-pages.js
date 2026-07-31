@@ -20,6 +20,11 @@ document.querySelectorAll("[data-whatsapp]").forEach((link) => {
         page_slug: pageSlug,
         contact_location: link.dataset.location || "page",
       });
+      window.gtag("event", "conversion", {
+        send_to: "AW-18360873724/8AOwCImCqNkcEPzlkrNE",
+        value: 1.0,
+        currency: "COP",
+      });
     }
   });
 });
